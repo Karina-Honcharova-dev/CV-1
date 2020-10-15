@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Montserrat&display=swap" rel="stylesheet">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<header id="header">
+  <img id="header-img" class="logo" src="pic/welcome-pic.png" alt="logo">
+<ul>
+  <li><a href="#">Strona Głowna</a></li>
+  <li><a href="#products">Wypieki</a></li>
+  <li><a href="#features">O nas</a></li>
+  <li><a href="#newsletter">Kontakt</a></li>
+</ul>
+</header>
+
+<main>
+  <section id="intro">
+    <div class="figure-intro">
+      <img class="circle-intro" src="https://raw.githubusercontent.com/MartaFagundez/FreeCodeCamp/master/LandingPage/cactus_intro_circle.png" alt="">
+      <img class="img-intro" src="pic/5625.png" alt="cake">
+    </div>
+
+    <h1>Z miłości <br>do słodkości. <span class="uppercase accent">Domowe wypieki</span> <br> w Krakowie</h1>
+  </section>
+
+  <section class="products">
+    <a id="products"></a>
+    <h2 class="uppercase accent">Nasze wypieki</h2>
+    <p></p>
+
+    <div class="img-product-group">
+      <img class="img-product portrait" src="pic/10564.jpg" alt="cake">
+      <img class="img-product landscape" src="pic/565.jpg" alt="cake">
+      <img class="img-product landscape" src="pic/5318.jpg" alt="cake">
+      <img class="img-product portrait" src="pic/9075.jpg" alt="cake">
+      <div class="product-quote portrait">
+        <p><span class="uppercase">&ldquo;Życie jest </span>niepewne. Najpierw zjedz <br><span class="accent">deser </span>.&ldquo;<br></p>
+        <p class="author">Ernestine Ulmer</p>
+      </div>
+      <img class="img-product landscape"src="pic/20413.jpg" alt="cake" >
+      <img class="img-product landscape"src="pic/8490.jpg" alt="cake" >
+      <img class="img-product portrait" src="pic/10526.jpg" alt="cake">
+    </div>
+  </section>
+
+  <section class="features">
+    <a id="features"></a>
+    <h2 class="uppercase accent">O nas</h2>
+    <p>Dlaczego my?</p>
+
+    <div class="feature-group">
+      <div class="feature">
+        <img class="pic-cake" src="pic/dessert.png" alt="cake">
+        <h3>Najwyzsza jakość</h3>
+        <p>Lorem ipsum color sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="feature">
+        <img class="pic-cake" src="pic/heart-1.png" alt="cake">
+        <h3>Zaufanie klientów </h3>
+        <p>Lorem ipsum color sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="feature">
+        <img class="pic-cake" src="pic/gift.png" alt="cake">
+        <h3>Niezawodny prezent</h3>
+        <p>Lorem ipsum color sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <a id="testimonials"></a>
+    <h2 class="uppercase accent">Opinie </h2>
+    <p></p>
+    <div id="testimonials" class="marginTop100">
+      <div class="container">
+        <a href="#" id="previous"><i class="white fa fa-chevron-left fa-2x"></i></a>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h2 class="white"></h2>
+          </div>
+        </div>
+        <div id="slider1" class="row" style="margin-top:25px">
+          <div class="col-md-4">
+            <blockquote>
+              &ldquo;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&rdquo;
+            </blockquote>
+            <div class="testimonialArrow"></div>
+            <div>
+              <div class="author">
+                <span>Keith1987</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              &ldquo;t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&rdquo;
+            </blockquote>
+            <div class="testimonialArrow"></div>
+            <div>
+              <div class="author">
+                <span>John Wilkins</span>
+            
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              &ldquo;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.&rdquo;
+            </blockquote>
+            <div class="testimonialArrow"></div>
+            <div>
+              <div class="author">
+                <span>Andrew Single</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          </div>
+        </div>
+  
+    </div>
+  </section>
+</main>
+
+<footer id="footer">
+  <section class="newsletter">
+    <a id="newsletter"></a>
+    <img class="news-icon" src="pic/heart-2.png" alt="cake">
+    <h2 class="uppercase accent">Napisz do nas</h2>
+    <p>Masz jakieś pytania? Czy chcesz złożyć zamowienie? <br> Wypelnij poniższy formularz ♥</p>
+
+    <form id="form" action="karinahoncharova.site">
+      <input id="email" name="name" type="name" placeholder="Twoje imię" spellcheck="false" value="" maxlength="30" required>
+      <input id="email" name="email" type="email" placeholder="E-mail" spellcheck="false" value="" maxlength="40" required>
+      <!-- <input id="email" name="email" type="email" placeholder="Message" spellcheck="false" value="" maxlength="278" required> -->
+      <textarea id="subject" name="subject" placeholder="Twój text..." style="height:200px"></textarea>
+
+
+      <input id="" type="submit" value="Wyślij">
+    </form>
+  </section>
+
+  <div class="connect-contact">
+    <a id="connect-contact"></a>
+    <section class="connect">
+      <h4>Connect</h4>
+      <div class="connect-icons-group">
+        <a href="#" target="_blank" title="Follow us on Instagram">
+                        <img class="logo-media" src="pic/instagram.png" alt="cake">
+                    </a>
+        <a href="#" target="_blank" title="Follow us on Youtube">
+                        <img class="logo-media" src="pic/facebook.png" alt="cake">
+                    </a>
+        <a href="#" target="_blank" title="Follow us on Pinterest">               
+                        <img   class="logo-media" src="pic/pinterest.png" alt="cake">
+                    </a>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h4>Contact</h4>
+      <p>Al. Wilanowska 77, Warszawa</p>
+      <p><strong>Phone</strong>: +48 000 000 000</p>
+      <p><strong>Email</strong>: hello@domowewypieki.com</p>
+    </section>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
